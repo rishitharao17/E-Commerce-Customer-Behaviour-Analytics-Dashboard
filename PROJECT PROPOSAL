@@ -1,0 +1,98 @@
+# PROJECT PROPOSAL
+## E-Commerce Customer Behaviour Analytics Dashboard Using Online Shoppers Purchasing Intention Dataset
+
+### 1. Introduction
+
+E-commerce websites generate valuable data about customer browsing behaviour, website interactions, and purchasing decisions. Analysing this data helps businesses understand how visitors interact with their websites and identify patterns associated with successful purchases.
+
+This project aims to develop an interactive E-Commerce Customer Behaviour Analytics Dashboard using the **Online Shoppers Purchasing Intention** dataset obtained from Kaggle. Python will be used for data processing and analysis, Plotly for interactive visualizations, and Streamlit for developing the dashboard.
+
+### 2. Problem Statement
+
+E-commerce businesses need to understand why some website visitors complete purchases while others leave without buying anything. Analysing browsing activity, time spent on different pages, bounce rates, visitor types, and other session characteristics can help identify patterns associated with purchasing behaviour.
+
+The project addresses this problem by analysing online shopping session data and presenting meaningful findings through an interactive analytics dashboard.
+
+### 3. Objectives
+
+- To collect and examine the Online Shoppers Purchasing Intention dataset.
+- To clean and preprocess the data for accurate analysis.
+- To analyse customer browsing patterns and purchasing behaviour.
+- To identify relationships between website engagement metrics and purchase completion.
+- To calculate relevant key performance indicators (KPIs).
+- To develop interactive charts and filters for exploring customer behaviour.
+- To present meaningful insights that can support data-driven e-commerce decisions.
+
+### 4. Dataset Description
+
+**Dataset name:** Online Shoppers Purchasing Intention
+
+**Source:** Kaggle
+
+**Original dataset source:** UCI Machine Learning Repository
+
+**Dataset link:** https://www.kaggle.com/datasets/imakash3011/online-shoppers-purchasing-intention-dataset
+
+The dataset contains 12,330 online shopping sessions and 18 attributes. Each row represents a shopping session, and the `Revenue` attribute indicates whether that session resulted in a purchase. The dataset includes numerical and categorical information related to browsing activity, website engagement, visitor type, and session characteristics.
+
+Important attributes include:
+
+- `Administrative` and `Administrative_Duration`
+- `Informational` and `Informational_Duration`
+- `ProductRelated` and `ProductRelated_Duration`
+- `BounceRates` and `ExitRates`
+- `PageValues` and `SpecialDay`
+- `Month`, `VisitorType`, and `Weekend`
+- `OperatingSystems`, `Browser`, `Region`, and `TrafficType`
+- `Revenue`
+
+### 5. Methodology
+
+#### Step 1: Project Proposal
+
+Define the project objectives, problem statement, scope, tools, and expected outcomes. Establish the workflow for collecting, cleaning, analysing, and visualizing the dataset.
+
+#### Step 2: Data Collection
+
+Download the dataset from Kaggle in CSV format. Load it into Python using the Pandas library and examine its structure, dimensions, attributes, and data types.
+
+#### Step 3: Data Cleaning
+
+Inspect the dataset for missing values, duplicate records, incorrect data types, inconsistent values, and potential data-quality issues. Apply appropriate preprocessing techniques and save the cleaned dataset for further analysis.
+
+#### Step 4: Data Analytics
+
+Perform exploratory data analysis using Pandas and numerical analysis techniques. Calculate relevant metrics, including total sessions, purchase conversion rate, purchase and non-purchase session counts, average page engagement, and comparisons across visitor types and months.
+
+Investigate relationships between browsing behaviour, bounce rates, exit rates, page values, and purchase outcomes.
+
+#### Step 5: Data Visualization
+
+Develop interactive charts using Plotly and integrate them into a Streamlit dashboard. The dashboard will include KPI cards, charts showing purchase outcomes and browsing patterns, comparisons between customer groups, and interactive filters where appropriate.
+
+### 6. Technologies Used
+
+- **Programming language:** Python
+- **Data manipulation:** Pandas
+- **Numerical analysis:** NumPy
+- **Data visualization:** Plotly
+- **Dashboard development:** Streamlit
+- **Development environment:** Google Colab and Visual Studio Code
+- **Dataset source:** Kaggle
+
+### 7. Expected Outcomes
+
+The project is expected to produce an interactive analytics dashboard that:
+
+- Summarizes online shopping session activity.
+- Shows the proportion of sessions that result in purchases.
+- Compares purchase and non-purchase sessions.
+- Explores browsing duration, page engagement, and visitor characteristics.
+- Highlights patterns associated with successful purchases.
+- Presents data-driven findings in an accessible visual format.
+
+The final outcome will be a functional dashboard that demonstrates the application of data collection, data cleaning, data analytics, and data visualization techniques to an e-commerce dataset.
+
+### 8. Conclusion
+
+The E-Commerce Customer Behaviour Analytics Dashboard will demonstrate how data analytics and visualization can transform raw online shopping session data into meaningful business insights. By combining Python, Pandas, Plotly, and Streamlit, the project will provide an interactive way to explore customer browsing patterns and purchasing outcomes, supporting more informed e-commerce decisions.
