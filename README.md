@@ -2,7 +2,7 @@
 
 <p align="center">
   <strong>📊 Turning online shopping session data into meaningful insights</strong><br>
-  Built with Python, Pandas, Plotly, and Streamlit
+  Built with Python, Pandas, Plotly, and PowerBI
 </p>
 
 ---
@@ -51,7 +51,7 @@ Check for missing values, duplicate records, incorrect data types, inconsistent 
 Perform exploratory data analysis and calculate useful metrics, such as session counts and purchase conversion rate. Compare browsing patterns across relevant customer and session groups.
 
 ### 5️⃣ 📊 Data Visualization
-Use Plotly to create interactive charts and Streamlit to bring the results together in an easy-to-use dashboard.
+Use Plotly to create interactive charts and PowerBI to bring the results together in an easy-to-use dashboard.
 
 ## 🛠️ Technology Stack
 
@@ -61,7 +61,7 @@ Use Plotly to create interactive charts and Streamlit to bring the results toget
 | 🐼 Pandas | Data manipulation and analysis |
 | 🔢 NumPy | Numerical operations |
 | 📊 Plotly | Interactive visualizations |
-| 🎈 Streamlit | Dashboard interface |
+| 📈 PowerBI | Dashboard interface |
 | ☁️ Google Colab | Initial data exploration |
 | 💻 Visual Studio Code | Local development |
 
@@ -112,7 +112,7 @@ Create a `requirements.txt` file with:
 pandas
 numpy
 plotly
-streamlit
+POWERBI
 ```
 
 Install the packages:
@@ -135,10 +135,10 @@ Make sure the filename in your code matches the file you downloaded. Check the d
 
 ### 5. Run the dashboard
 
-After creating the Streamlit application and saving it as `app.py`, run:
+After creating the POWERBI application and saving it as `app.py`, run:
 
 ```bash
-streamlit run app.py
+POWERBI run app.py
 ```
 
 Open the local URL shown in the terminal to view the dashboard.
@@ -173,14 +173,14 @@ This calculation assumes that `Revenue` contains Boolean values or equivalent `0
 
 ## ✅ Project Status
 
-- [x] Dataset selected
-- [x] Project proposal drafted
-- [ ] Dataset downloaded and loaded
-- [ ] Data quality checks completed
+- [✅] Dataset selected
+- [✅] Project proposal drafted
+- [✅] Dataset downloaded and loaded
+- [✅] Data quality checks completed
 - [ ] Data cleaning documented
 - [ ] Exploratory data analysis completed
 - [ ] KPIs and visualizations implemented
-- [ ] Streamlit dashboard developed
+- [ ] POWERBI dashboard developed
 - [ ] Dashboard tested and deployed
 
 ## 🎓 Expected Outcome
